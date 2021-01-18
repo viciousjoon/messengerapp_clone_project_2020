@@ -1,0 +1,66 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.screen-header__icons span {
+  margin-left: 25px;
+}
+
+.screen-header__icons .fa-baseball-ball:hover {
+  color: var(--tennisgreen);
+  animation: bounceball 1s ease-in-out infinite;
+}
+
+@keyframes bounceball {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes crazymessage {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  color: var(--tennisgreen);
+  animation: rotateCog 1s linear infinite;
+}
+
+.screen-header__icons .fa-search:hover {
+  color: var(--tennisgreen);
+}
+
+.screen-header__icons .fa-comment-dots:hover {
+  color: var(--tennisgreen);
+  animation: crazymessage 1s ease-in-out infinite;
+}

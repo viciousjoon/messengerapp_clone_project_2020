@@ -1,0 +1,7 @@
+:root {
+  --yellow: #fae100;
+  --tennisblue: rgb(62, 154, 215);
+  --tennisgreen: rgb(197, 230, 0);
+  --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+}

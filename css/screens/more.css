@@ -1,0 +1,63 @@
+.more-screen .icon-row {
+  margin-top: 35px;
+}
+
+.more-suggestions {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
+
+.more-suggestions__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-suggestions__icon {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-suggestions__icon-image {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image .fa-baseball-ball {
+  font-size: 32px;
+  color: var(--tennisgreen);
+}
+
+.more-suggestions__icon-image .fa-futbol {
+  font-size: 32px;
+  color: black;
+}
+
+.more-suggestions__icon-image .fa-basketball-ball {
+  font-size: 32px;
+  color: #db682a;
+}
+
+.more-suggestions__icon:first-child:hover {
+  color: var(--tennisgreen);
+}
+
+.more-suggestions__icon:nth-child(2):hover {
+  color: var(--tennisgreen);
+}
+
+.more-suggestions__icon:nth-child(3):hover {
+  color: var(--tennisgreen);
+}

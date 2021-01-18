@@ -14,11 +14,12 @@
 
 .more-suggestions__icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
+  width: 33%;
+  height: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
